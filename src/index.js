@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (target.value.length < 12 || target.value.length > 20) {
       numberName.classList.add('invalid');
       numberName.closest('label').querySelector('span').innerText =
-        'Имя должно быть больше 12 и меньше 20 знаков';
+        'Телефон должен быть больше 12 и меньше 20 знаков';
     } else {
       numberName.classList.remove('invalid');
       numberName.closest('label').querySelector('span').innerText = '';
